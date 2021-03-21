@@ -1,11 +1,19 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: cadetblue;
+  margin:0;
+  padding:0;
+  background-image: url("ceu-estrelado.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  backdrop-filter: brightness(0.5);
 }
 
-h1 {
+#title {
+  color: white;
   text-align: center;
+  margin:auto;
+  padding: 30px;
+  font-family: 'Bigelow Rules', cursive;
+  font-weight: 100;
 }
 
 #color-palette {
@@ -53,4 +61,12 @@ h1 {
 button {
   margin-left: 620px;
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 50px) {
+ body {
+  backdrop-filter: brightness(0.5);
+  background-image: url("ceu-estrelado.jpg");
+  background-repeat: no-repeat;
+ }
 }
