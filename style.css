@@ -13,7 +13,8 @@ body {
   margin:auto;
   padding: 30px;
   font-family: 'Bigelow Rules', cursive;
-  font-weight: 100;
+  font-family: 'Pacifico', cursive;
+  font-size: 3em; 
 }
 
 #color-palette {
