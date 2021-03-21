@@ -65,11 +65,11 @@ button {
 }
 
 footer {
- background-color: #0000009c;
- color: white;
- text-align: center;
- padding: 5px;
- margin-top: 149px;
+  background-color: #0000009c;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-top: 149px;
 }
 
 @media screen and (min-width: 50px) {
